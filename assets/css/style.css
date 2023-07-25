@@ -1,0 +1,27 @@
+body {
+  background-color: antiquewhite;
+}
+
+.ml-38 {
+  margin-left: 38.2rem;
+}
+
+.delete-icon {
+  font-size: 1.26rem;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+p[data-track="done"] {
+  background-color: #198754;
+}
+
+p[data-track="not done"] {
+  background-color: #dc3545;
+}
