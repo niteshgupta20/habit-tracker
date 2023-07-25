@@ -5,7 +5,7 @@
 - clone the repository
 
 ```
-git clone <git url>
+git clone https://github.com/niteshgupta20/habit-tracker.git
 ```
 
 - Install dependencies
@@ -46,3 +46,12 @@ The folder structure of this app is explained below:
 | **views**                | ejs file which served by routes.    |
 | app.js                   | Entry point to express app          |
 | package.json             | Contains npm dependencies as well as build scripts       |
+
+## Screenshots
+
+### Home Screen
+![Home Screen](https://github.com/niteshgupta20/habit-tracker/blob/master/screenshots/home.PNG?raw=true)
+
+### Add Habit Button
+
+![Movie Screen](https://github.com/niteshgupta20/habit-tracker/blob/master/screenshots/add-habit.PNG?raw=true)
