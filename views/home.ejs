@@ -69,7 +69,12 @@
           <div class="d-flex justify-content-around">
             <% for(day of weeklyDetails ) { %>
               <% let date=habit.days.find(({ date })=> date === day.date)
-                let status = date.status === "undefined" ? 'none': date.status
+                let status;
+                if(date){
+                status = date.status
+                }else{
+                status = "none"
+                }
                 %>
 
                 <div class="p-2 d-flex flex-column justify-content-center align-items-center">
