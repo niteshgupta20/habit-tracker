@@ -14,7 +14,7 @@ module.exports.getHabits = async function (req, res) {
 
     const lastWeekDetails = getLastWeekDetails();
 
-    return res.render('Home', {
+    return res.render('home', {
       habits: habits,
       weeklyDetails: lastWeekDetails,
     });
