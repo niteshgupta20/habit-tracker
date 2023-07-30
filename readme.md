@@ -8,6 +8,12 @@
 git clone https://github.com/niteshgupta20/habit-tracker.git
 ```
 
+- create .env file
+
+```
+DB_URI="mongodb://127.0.0.1:27017/habit-tracker"
+```
+
 - Install dependencies
 
 ```
@@ -43,13 +49,14 @@ The folder structure of this app is explained below:
 | **controllers**          | Controllers define functions to serve various express routes.                                      |
 | **routes**               | Contain all express routes                                                                         |
 | **models**               | Models define schemas that will be used in storing and retrieving data from habit-tracker database |
-| **views**                | ejs file which served by routes.    |
-| app.js                   | Entry point to express app          |
-| package.json             | Contains npm dependencies as well as build scripts       |
+| **views**                | ejs file which served by routes.                                                                   |
+| app.js                   | Entry point to express app                                                                         |
+| package.json             | Contains npm dependencies as well as build scripts                                                 |
 
 ## Screenshots
 
 ### Home Screen
+
 ![Home Screen](https://github.com/niteshgupta20/habit-tracker/blob/master/screenshots/home.PNG?raw=true)
 
 ### Add Habit Button
